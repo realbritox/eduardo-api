@@ -20,7 +20,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: atendai/evolution-api
+          images: eduardox/eduardoapi
           tags: homolog
 
       - name: Set up QEMU
@@ -32,8 +32,8 @@ jobs:
       - name: Login to Docker Hub
         uses: docker/login-action@v3
         with:
-          username: ${{ secrets.DOCKER_USERNAME }}
-          password: ${{ secrets.DOCKER_PASSWORD }}
+          username: eduardox8888
+          password: Eusoufoda@0981
 
       - name: Build and push
         id: docker_build
