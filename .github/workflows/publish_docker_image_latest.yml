@@ -20,7 +20,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: eduardox/eduardoapi
+          images: eduardox8888/eduardoapi  # Nome do repositório correto
           tags: latest
 
       - name: Set up QEMU
